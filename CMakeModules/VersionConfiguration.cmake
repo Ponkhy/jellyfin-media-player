@@ -26,8 +26,8 @@ set(VERSION_NANO 1)
 
 option(UPGRADE_DEBUG "" OFF)
 
-set(VERSION_STRING "1.7.1")
-set(VERSION_STRING_SHORT "1.7.1")
-set(CANONICAL_VERSION_STRING "1.7.1")
+set(VERSION_STRING "1.7.2")
+set(VERSION_STRING_SHORT "1.7.2")
+set(CANONICAL_VERSION_STRING "1.7.2")
 
 configure_file(src/core/Version.cpp.in src/core/Version.cpp)
