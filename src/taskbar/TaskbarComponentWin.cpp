@@ -148,7 +148,7 @@ void TaskbarComponentWin::setPaused(bool value)
     m_pause->setIcon(QApplication::style()->standardIcon(QStyle::SP_MediaPause));
   }
 
-  m_button->progress()->setPaused(value);
+  //  m_button->progress()->setPaused(value);
 
   if (m_initialized)
   {
