@@ -755,7 +755,7 @@ QString SettingsComponent::getClientName()
   QString name;
   name = SettingsComponent::Get().value(SETTINGS_SECTION_SYSTEM, "systemname").toString();
 
-  if (name.compare("JellyfinMediaPlayer") == 0) {
+  if (name.compare("JellyfinMediaPlayer (Ponkhy)") == 0) {
     name = Utils::ComputerName();
   }
 

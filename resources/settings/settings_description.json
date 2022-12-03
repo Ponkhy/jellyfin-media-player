@@ -417,7 +417,7 @@
     "values": [
         {
           "value": "systemname",
-          "default": "JellyfinMediaPlayer",
+          "default": "JellyfinMediaPlayer (Ponkhy)",
           "hidden": true,
           "platforms": [ "oe" ]
         },
