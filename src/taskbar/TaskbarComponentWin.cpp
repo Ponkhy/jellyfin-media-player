@@ -128,9 +128,9 @@ void TaskbarComponentWin::setProgress(quint64 value)
 {
   qint64 duration = PlayerComponent::Get().getDuration();
   int progress = 0;
-  if (duration != 0) {
-    progress = (int) (value / duration / 10);
-  }
+  // if (duration != 0) {
+  //    progress = (int) (value / duration / 10);
+  // }
   m_button->progress()->setValue(progress);
 }
 
